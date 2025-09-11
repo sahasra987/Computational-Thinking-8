@@ -1,0 +1,6 @@
+print("What do you call fake spaghetti?")
+input("")
+print("An impasta.")
+print("Why don't scientists trust atoms?")
+input("")
+print("Because they make up everything.")
