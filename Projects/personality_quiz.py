@@ -33,9 +33,11 @@ elif answer == "A" or answer == "a":
 
 answer = input("would you rather A talk with other people?, or B not talk to others and be alone?")
 
-if answer == "B" or answer == "b":
+if answer == "B" or answer == "b" and home_points > 3:
+	print ("You really like being at home!")
 	home_points += 1
-elif answer == "A" or answer == "a":
+elif answer == "A" or answer == "a" and restaurant_points > 3:
+	print ("Wow you really like going to restaurants!")
 	restaurant_points += 1
 
 #end of quiz:
